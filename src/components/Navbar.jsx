@@ -30,7 +30,7 @@ function Navbar({dark, onToggle}) {
         </a>
         </div>
 
-        <ul className="hidden lg:flex flex-row items-center space-x-3">
+        <ul className="hidden md:flex flex-row items-center space-x-3">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a className="font-semibold text-lg text-[#1769AA] dark:text-white hover:bg-[#1769AA] hover:text-white px-3 py-2 rounded-lg" href={link.href}>{link.name}</a>
@@ -38,18 +38,18 @@ function Navbar({dark, onToggle}) {
           ))}
         </ul>
 
-        <div className="max-lg:hidden"><ThemeToggle onToggle={onToggle} dark={dark}/></div>
+        <div className="max-md:hidden"><ThemeToggle onToggle={onToggle} dark={dark}/></div>
 
-        <div className="lg:hidden">
+        <div className="md:hidden">
             <button className="text-xl" onClick={menuToggle} >{menu ? "✖" : "☰"}</button>
         </div>
 
       </div>
       {menu && (
-            <ul className="flex flex-col gap-3 border-t pt-2 lg:hidden">
+            <ul className="flex flex-col gap-2 border-t pt-2 md:hidden">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a onClick={() => SetMenu(false)} className="block hover:text-white font-semibold text-lg text-[#1769AA] hover:bg-[#1769AA] px-3 py-2 rounded-lg text-center" href={link.href}>{link.name}</a>
+                <a onClick={() => SetMenu(false)} className="block hover:text-white font-semibold text-[#1769AA] px-3 py-2 rounded-lg text-center" href={link.href}>{link.name}</a>
               </li>
             ))}
             <a className="flex justify-center" onClick={() => SetMenu(false)}><ThemeToggle onToggle={onToggle} dark={dark}/></a>
