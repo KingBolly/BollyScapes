@@ -46,7 +46,7 @@ function Footer() {
         <hr className="sm:hidden my-5"/>
 
         <div className="flex flex-row max-sm:justify-center items-center gap-3 lg:border-l-2 border-l-white lg:pl-8">
-        <a href="https://instagram.com/?pxt=MXFhZXVmNg10cWg3eg" target="blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Instagram">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Instagram">
   <defs>
     <radialGradient id="ig-gradient-1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
       <stop offset="0" stopColor="#fd5"/>
@@ -68,14 +68,14 @@ function Footer() {
   <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/>
   <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/>
         </svg></a>
-        <a href="https://www.facebook.com/share/1Cvutdppty" target="blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" role="img" aria-label="Facebook">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" role="img" aria-label="Facebook">
         <circle cx="12" cy="12" r="12" fill="#0866FF"/>
         <path fill="#FFFFFF" d="M16.67 15.47l.53-3.47h-3.33V9.75c0-.95.46-1.87 1.95-1.87h1.51V4.92s-1.37-.23-2.68-.23c-2.74 0-4.53 1.66-4.53 4.67V12H7.08v3.47h3.04v8.38a12.1 12.1 0 0 0 3.75 0v-8.38h2.8z"/>
         </svg></a>
         <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org" aria-label="X">
         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#ffffff"/>
         </svg></a>
-        <a href="https://youtube.com/@augustinaukah?si=QWJsYjASPAX4-qiY" target="blank"><svg xmlns="http://w3.org" viewBox="0 0 28.57 20" width="36" height="34" role="img" aria-label="YouTube">
+        <a href="#"><svg xmlns="http://w3.org" viewBox="0 0 28.57 20" width="36" height="34" role="img" aria-label="YouTube">
         <path fill="#FF0000" d="M27.9727 3.12324C27.6435 1.89323 26.6768 0.926623 25.4468 0.597366C23.2197 2.24288e-07 14.285 0 14.285 0C14.285 0 5.35042 2.24288e-07 3.12323 0.597366C1.89323 0.926623 0.926623 1.89323 0.597366 3.12324C2.24288e-07 5.35042 0 10 0 10C0 10 2.24288e-07 14.6496 0.597366 16.8768C0.926623 18.1068 1.89323 19.0734 3.12323 19.4026C5.35042 20 14.285 20 14.285 20C14.285 20 23.2197 20 25.4468 19.4026C26.6768 19.0734 27.6435 18.1068 27.9727 16.8768C28.5701 14.6496 28.5701 10 28.5701 10C28.5701 10 28.5677 5.35042 27.9727 3.12324Z"/>
         <path fill="#FFFFFF" d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z"/>
         </svg></a>
